@@ -1,0 +1,41 @@
+
+.input1 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    margin: 0;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px 0 10px;
+}
+.input1:focus {
+    color: #42aa26;
+    transition: .2s;
+}
+
+.submit-btn1 {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    color: #fff;
+    height: 50px;
+    border-radius: 10px;
+    background: #57b846;
+    width: 100%;
+}
+.submit-btn1:hover {
+    background: #333333;
+    cursor: pointer;
+    transition: 1s;
+}
+
+

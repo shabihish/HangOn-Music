@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../CSS/signup-form.css">
+<link rel="stylesheet" href="../CSS/display.css">
+<link rel="stylesheet" href="../CSS/animation.css">
+<link rel="stylesheet" href="../CSS/text.css">
+<link rel="stylesheet" href="../CSS/container.css">
+<link rel="stylesheet" href="../CSS/form.css">
+<script>
+    document.addEventListener("DOMContentLoaded", ready);
+    document.body.style = "opacity: 0%";
+
+    function ready() {
+        document.body.style = "opacity: 100%";
+    }
+</script>
+<style>
+    body, h1 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-image: url('https://api.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+</style>
+
+<body>
+
+<div class="container-box text-white animate-opacity display-middle bgwhite">
+
+    <form class="display-middle-horizontal" action="/action_signup">
+        <h1 class="text-dark display-middle-horizontal">
+            SignUp
+        </h1><br>
+        <div class="input1">
+            <input class="input1" type="text" name="email" placeholder="Email">
+            </span>
+        </div>
+        <br>
+        <div class="input1">
+            <input class="input1" type="text" name="username" placeholder="Username">
+            </span>
+        </div>
+        <br>
+        <div class="input1">
+            <input class="input1" type="password" name="pass" placeholder="Password">
+            </span>
+        </div>
+        <br>
+        <div class="submit-btn1">
+            <button class="submit-btn1" type="submit" >
+                Signup
+            </button>
+        </div>
+    </form>
+    <br>
+    <a href="login.html" style="color: blue;">Already registered? Login!</a>
+</div>
+
+</body>
+</html>

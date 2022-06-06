@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../CSS/signup-form.css">
+<link rel="stylesheet" href="../CSS/display.css">
+<link rel="stylesheet" href="../CSS/animation.css">
+<link rel="stylesheet" href="../CSS/text.css">
+<link rel="stylesheet" href="../CSS/container.css">
+<link rel="stylesheet" href="../CSS/form.css">
+
+<style>
+    body, h1 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-image: url('https://photojournal.jpl.nasa.gov/jpeg/PIA23689.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+</style>
+<script>
+    document.body.style.opacity=0;
+    alert("erfrr");
+    function onDocumentLoaded() {
+        // document.body.style = "opacity: 100%";
+    }
+</script>
+
+<body onload="onDocumentLoaded()">
+
+<div class="container-box text-white animate-opacity display-middle bgwhite">
+
+    <form class="display-middle-horizontal" method="post">
+        <h1 class="text-dark display-middle-horizontal">
+            Login
+        </h1><br>
+        <div class="username">
+            <input class="input1" type="text" name="user" placeholder="Username">
+            </span>
+        </div>email
+        <br>
+        <div class="input1">
+            <input class="input1" type="password" name="pass" placeholder="Password">
+            </span>
+        </div>
+        <br>
+        <div class="submit-btn1">
+            <button class="submit-btn1" >
+                Login
+            </button>
+        </div>
+    </form>
+    <br>
+    <a href="signup.html" style="color: blue">Don't have an account? Signup!</a>
+</div>
+
+</body>
+</html>
